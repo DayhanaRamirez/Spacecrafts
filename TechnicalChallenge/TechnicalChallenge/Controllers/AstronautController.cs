@@ -4,6 +4,10 @@ using TechnicalChallenge.Models;
 
 namespace TechnicalChallenge.Controllers
 {
+
+    //Controller for astronauts, where I send data to do crud functions to the services and then
+    //retrieve it for the view. 
+
     public class AstronautController : Controller
     {
         private readonly IAstronautServices _astronautServices;

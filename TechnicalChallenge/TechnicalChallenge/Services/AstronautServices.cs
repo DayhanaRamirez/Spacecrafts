@@ -4,6 +4,8 @@ using TechnicalChallenge.Models;
 
 namespace TechnicalChallenge.Services
 {
+    //Services for astronauts. Here is where I call the repository to do crud functions and send data
+    //taken from controller. 
     public class AstronautServices : IAstronautServices
     {
         private readonly IAstronautRepository _astronautRepository;

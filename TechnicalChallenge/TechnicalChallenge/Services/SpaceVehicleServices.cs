@@ -3,6 +3,8 @@ using TechnicalChallenge.Models;
 
 namespace TechnicalChallenge.Services
 {
+    //Services for space vehicles. Here is where I call the repository to do crud functions and send data
+    //taken from controller. 
     public class SpaceVehicleServices : ISpaceVehicleServices
     {
         private readonly ISpaceVehicleRepository _spaceVehicleRepository;

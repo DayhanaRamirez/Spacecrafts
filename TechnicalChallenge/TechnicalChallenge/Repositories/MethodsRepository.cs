@@ -5,6 +5,7 @@ using TechnicalChallenge.Interfaces;
 
 namespace TechnicalChallenge.Repositories
 {
+    //Repository for methods. Here is where I connect to my DB to find objects to know info about them.
     public class MethodsRepository : IMethodsRepository
     {
         private readonly TechnicalChallengeDbContext _context;

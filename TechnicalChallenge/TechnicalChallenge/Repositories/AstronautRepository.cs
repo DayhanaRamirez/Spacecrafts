@@ -5,6 +5,8 @@ using TechnicalChallenge.Models;
 
 namespace TechnicalChallenge.Repositories
 {
+    //Repository for astronauts. Here is where I connect to my DB with the data recevied, do crud
+    //functions in the DB and save changes. 
     public class AstronautRepository : IAstronautRepository
     {
         private readonly TechnicalChallengeDbContext _context;

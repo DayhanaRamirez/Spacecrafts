@@ -3,6 +3,8 @@ using TechnicalChallenge.Interfaces;
 
 namespace TechnicalChallenge.Controllers
 {
+    //Controller for specific information about objects (description and work shift), where I call
+    //the services, send data to them and retrieve info for the view.
     public class MethodsController : Controller
     {
 

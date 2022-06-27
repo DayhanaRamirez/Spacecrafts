@@ -2,6 +2,8 @@
 
 namespace TechnicalChallenge.Services
 {
+    //Services for methods to know specific info about objects. Here is where I call the repository to
+    //do search functions and send datataken from controller. 
     public class MethodsServices : IMethodsServices
     {
         private readonly IMethodsRepository _methodsRepository;
